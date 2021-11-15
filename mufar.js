@@ -1,12 +1,12 @@
 /*
-----------[ SCRIPT BY XRUTZ OFFICIAL ]----------
+----------[ SCRIPT BY Faisal GAMING ]----------
 KALO MAU UPLOAD KE YT, KASIH CREDITNYA LU CM NUMPANG!
-き⃟ SC ORI : DEPIN
-き⃟ RECODER : XRUTZ
+き⃟ SC ORI : FAISAL
+き⃟ RECODER : Faisal
 き⃟ THANKS TO :
 - MANIK ARYA
 - DCODE DENPA
-- KURXD OFFC
+- FAISAL GAMING
 - ZEEONE
 - LOLHUMAN
 - YUZZU KIMIYAKA
@@ -256,7 +256,7 @@ const daftar1 = `Hallo kak ${pushname}
 
 Silahkan tekan Button dibawah.
 *NOTE : Mendaftar hanya bisa sekali!*`
-const daftar2 = '*Created © Xrutz Official*'
+const daftar2 = '*Created © FAISAL*'
 const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `Meng Daftar`,},type: 1,},]
 
 const createSerial = (size) => {
@@ -757,7 +757,7 @@ Prefix : Multi Prefix
 Runtime : ${runtime(on)}`
 
 futer =`
-*X R U T Z B O T 濾*
+*F A I S A L  B O T 濾*
 ${week}, ${calender} 
 
 *• Random Menu :*
@@ -923,7 +923,7 @@ ${week}, ${calender}
 132. ${prefix}antivirtex
 133. ${prefix}detikvn _reply vn_
 
-*© Xrutz - Official Bot*
+*© FAISAL - GAMING Bot*
 Hitung Mundur Ramadhan :
 _${ramadhan.data.result}_, *Now : ${week}, ${calender}*`
 img = fs.readFileSync('./src/Mufar.jpg')
@@ -931,7 +931,7 @@ sendButImage(from, menuk, futer, img, but)
 limitAdd(sender, limit)
 break
 
-case 'infobot': //By KurXd
+case 'infobot': //By FAISAL
 groups = Mufar.chats.array.filter(v => v.jid.endsWith('g.us'))
 privat = Mufar.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
 ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
@@ -941,11 +941,11 @@ latensie = speed() - timestampe
 totalChat = await Mufar.chats.all()
 total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fmen})
-nama = '𝗫𝗿𝘂𝘁𝘇 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹'
-ownerJid = "6283871990243@s.whatsapp.net"
+nama = 'FAISAL GAMING'
+ownerJid = "62858770642900@s.whatsapp.net"
 			
 menunya = `⍟ ────────────────── ⍟
-X R U T Z B O T 右
+F A I S A L B O T 右
 ${week}, ${calender}
 
 Group Chats : ${groups.length}
@@ -1005,7 +1005,7 @@ mhan = await Mufar.prepareMessage(from, thumb, image, {thumbnail: thumb})
 const btnBngsat = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${menunya}`,
-footerText: `© Xrutz Official`,
+footerText: `© FAISAL`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -1018,7 +1018,7 @@ case 'command':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fmen})
 listMsg = {
 buttonText: 'PILIH DISINI',
-footerText: '*_© Xrutz - Official Bot_*',
+footerText: '*_© FAISAL - GAMING Bot_*',
 description: `${tampilUcapan} ${pushname}, *Hallo User @${sender.split('@')[0]}, Silahkan pilih menu Xrutz-Bot disini*`,
 sections: [
                  {
@@ -1058,7 +1058,7 @@ break
 
 case 'rulesbot':
 if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: fmen})
-ruls =`*Syarat & Ketentuan XrutzBot.ೃ🐣*
+ruls =`*Syarat & Ketentuan FAISALBot.ೃ🐣*
 Harus di patuhi, Kalau tidak di Banned!
 
 1. Dilarang Toxic Ke Bot. 
@@ -1067,13 +1067,13 @@ Harus di patuhi, Kalau tidak di Banned!
 4. Dilarang Culik Bot ke Grup.
 
 Kalo sudah dipahami Rules nya
-*Silahkan lanjut gunakan Xrutz Bot!*`
+*Silahkan lanjut gunakan FAISAL Bot!*`
 but = [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'Chat Owner' }, type: 1 }]
 sendButton(from, ruls, faketeks, but, mek)
 limitAdd(sender, limit)
 break
 
-case 'verify': //By Denpa
+case 'verify': //By FAISAL
 if (isRegistered) return reply('Kamu sudah daftar...')
 const serialUser = createSerial(18)
 veri = sender
@@ -1261,11 +1261,11 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 teks =`*${tampilUcapan} ${pushname}*
 Pilih Pembayaran Donasinya Xixi :
 
-*Gopay : Scan QR*
-*Ovo : 083871990243*
-*Pulsa : 083871990243*`
+*Gopay : 085877064290*
+*Dana : 085877064290*
+*Pulsa : 085877064290*`
 img = fs.readFileSync('./src/Myqris.jpg')
-trans = `Created © Xrutz Official`
+trans = `Created © FAISAL GAMING`
 but = [
 { buttonId: `${prefix}owner`, buttonText: { displayText: 'Chat Owner' }, type: 1 },
 { buttonId: `${prefix}sc`, buttonText: { displayText: 'Script Original' }, type: 1 }
@@ -1291,7 +1291,7 @@ teksits = `*=> [ BIG THANKS TO ]*
 2. Dcode Denpa
 3. Adiwajshing
 4. IWasHuman
-5. Pengguna Bot
+5. FAISAL
 6. Penyedia Api Key
 7. Arya Manik
 8. Arifi Razzaq
@@ -1306,7 +1306,7 @@ teksits = `*=> [ BIG THANKS TO ]*
  ❏ Lol Human
  ❏ Baileys
  ❏ Denis Putra
- ❏ KurrXd Offc
+ ❏ FAISAL
  ❏ Dhani Ganz
  ❏ YogiPw
  ❏ Ramlan ID
@@ -1320,8 +1320,8 @@ teksits = `*=> [ BIG THANKS TO ]*
  ❏ Zeeone Ofc
  ❏ All Creator Botz
 
-*_© Xrutz Official_*
-*[ SC : XRUTZ OFFICIAL ]*`
+*_© FAISAL GAMING_*
+*[ SC : FAISAL GAMING ]*`
 Mufar.sendMessage(from, thumb, image, {thumbnail:fs.readFileSync('./src/Tamnel.jpg'), quoted: floc, caption: teksits, forwardingScore: 1000, isForwarded: true })
 break
 
